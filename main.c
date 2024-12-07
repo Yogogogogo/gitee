@@ -1,22 +1,4 @@
-/****************************************************************************
- * @file    : main.c
- * @author  : Novosense
- * @version : V1.0
- * @Date    : 2021/9/16
- * @brief   : A special header file containing some basic header files
- * @note
- * Copyright (C) 2021 Novosense All rights reserved.
- ****************************************************************************/
-#include "include.h"
-#include "Modules_Cfg.h"
-#include "Mcal.h"
-//#include "Ecal.h"
-#include "Gpt.h"
-#include "rtSched.h"
 
-#define SYS_TICK_VALUE_1MS            32000
-#define USED_SOFT_SIMULATOR           STD_OFF
-uint8 rtSchedTickCnt;
 
 int main()
 {
